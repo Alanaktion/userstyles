@@ -1,0 +1,5 @@
+@-moz-document domain("floatplane.com") {
+    .video-player-wrapper .video-player-container {
+        max-width: none;
+    }
+}

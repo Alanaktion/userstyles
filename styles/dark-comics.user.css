@@ -1,0 +1,132 @@
+@-moz-document domain("xkcd.com") {
+    body {
+        background-color: #333;
+    }
+    #topContainer {
+        opacity: 0.8;
+    }
+    #bottom {
+        background-color: #444;
+        color: #aaa;
+    }
+    #bottom img {
+        filter: brightness(.27);
+    }
+    #bottom #comicmap :hover {
+        filter: none;
+    }
+    #bottom a {
+        color: #ddd;
+        font-weight: inherit;
+    }
+}
+
+@-moz-document domain("dumbingofage.com") {
+    body,
+    body.custom-background {
+        background-color: #333;
+    }
+}
+
+@-moz-document domain("itswalky.com") {
+    body {
+        background-color: #333;
+    }
+    #sidebar-above-header a>img {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
+
+@-moz-document domain("questionablecontent.net") {
+    body {
+        background-color: #333;
+    }
+}
+
+@-moz-document domain("dieselsweeties.com") {
+    body,
+    #maincontent {
+        background-color: #333;
+    }
+    .bigfollowtext {
+        color: whitesmoke;
+    }
+    .bigfollowtext a,
+    .bigfollowtext a:visited {
+        color: whitesmoke;
+    }
+}
+
+@-moz-document domain("dilbert.com") {
+    body {
+        background-color: #444;
+        color: #f5f5f5;
+    }
+    h1 .comic-title-date,
+    .comic-title-name {
+        color: #eee;
+    }
+    .js_shelf_ads {
+        display: none;
+    }
+    .amu-comments-container>div>.col-sm-12 {
+        background-color: #eee;
+        border-radius: 4px;
+    }
+    .comment-container h3 {
+        color: #222;
+    }
+    .amu-section-social {
+        border-color: #777;
+    }
+}
+
+@-moz-document domain("delusioninabox.tumblr.com") {
+    body {
+        background-color: #222;
+    }
+    .main-nav ul.nav>li>a {
+        color: #eee;
+    }
+}
+
+@-moz-document domain("phdcomics.com") {
+    /* This one's bad, but the site has crap code so whaddayado */
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+}
+
+@-moz-document domain("librarycomic.tumblr.com") {
+    body {
+        background-color: #222;
+    }
+    .blog-title a,
+    .description,
+    .search-no-results,
+    .likes-no-likes,
+    .related-posts-wrapper>h2,
+    .loader .loader-bar,
+    .widget-title {
+        color: #eee;
+    }
+}
+
+@-moz-document domain("poorlydrawnlines.com") {
+    body {
+        background-color: #444;
+        background-image: none;
+    }
+    .content {
+        background-color: #ccc;
+    }
+    .size-full,
+    .share {
+        border-radius: 8px;
+    }
+    .post-footer div#comments {
+        padding-top: 0;
+        background-image: none;
+    }
+}

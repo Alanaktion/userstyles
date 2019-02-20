@@ -1,0 +1,16 @@
+@-moz-document domain("manager.linode.com") {
+    body {
+        background-color: #222;
+    }
+    .header_tab_active {
+        background-color: #222;
+        color: #f5f5f5 !important;
+    }
+    #subtabs a:link,
+    #subtabs a:visited {
+        color: #ccc;
+    }
+    #subtabs a.active {
+        color: #000;
+    }
+}

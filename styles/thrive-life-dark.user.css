@@ -1,0 +1,23 @@
+@-moz-document domain("thrivelife.com") {
+    html,
+    img:not([src*="placeholder"]):not(.loading),
+    #dashboardFooter {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    a {
+        filter: brightness(0.8);
+    }
+    .logo,
+    .logo img {
+        filter: none !important;
+    }
+    body {
+        background-color: #000 !important;
+    }
+    *:not(.fa) {
+        font-family: 'Open Sans', sans-serif !important;
+    }
+    .modal-backdrop {
+        background-color: #fff;
+    }
+}
