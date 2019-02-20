@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Dark Comics
+@namespace    alanaktion/userstyles
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@supportURL   https://github.com/Alanaktion/userstyles/issues
+@license      MIT
+==/UserStyle== */
+
 @-moz-document domain("xkcd.com") {
     body {
         background-color: #333;

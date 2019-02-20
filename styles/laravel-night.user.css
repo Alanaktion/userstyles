@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Laravel Night
+@namespace    alanaktion/userstyles
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@supportURL   https://github.com/Alanaktion/userstyles/issues
+@license      MIT
+==/UserStyle== */
+
 @-moz-document url-prefix("https://laravel.com/docs/"),
 url-prefix("https://lumen.laravel.com/docs/") {
     /* Laravel/Lumen docs */

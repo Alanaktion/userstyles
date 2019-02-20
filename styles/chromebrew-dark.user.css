@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Chromebrew Dark
+@namespace    alanaktion/userstyles
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@supportURL   https://github.com/Alanaktion/userstyles/issues
+@license      MIT
+==/UserStyle== */
+
 @-moz-document url-prefix("http://skycocker.github.io/chromebrew/") {
     body {
         background-color: #222;

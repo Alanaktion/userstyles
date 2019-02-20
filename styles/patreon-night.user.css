@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         Patreon Night
+@namespace    alanaktion/userstyles
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@supportURL   https://github.com/Alanaktion/userstyles/issues
+@license      MIT
+==/UserStyle== */
+
 @-moz-document domain("patreon.com") {
     /*!
     * I kinda hate React

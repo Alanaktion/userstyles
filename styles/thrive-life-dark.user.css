@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name         Thrive Life Dark
+@namespace    alanaktion/userstyles
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@license      MIT
+==/UserStyle== */
+
 @-moz-document domain("thrivelife.com") {
     html,
     img:not([src*="placeholder"]):not(.loading),
