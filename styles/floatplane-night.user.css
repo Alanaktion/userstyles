@@ -309,4 +309,26 @@
         margin-left: 1px;
         margin-right: 1px;
     }
+    /* Livestream chat */
+    live-chat {
+        border-color: var(--color-border) !important;
+    }
+    .chat-messages-container .message-list .chat-message {
+        background-color: var(--color-bg) !important;
+        border-color: var(--color-border) !important;
+    }
+    .chat-messages-container .message-list .chat-message .chat-username {
+        color: var(--color-fg) !important;
+    }
+    .chat-messages-container .message-list .chat-message .chat-text {
+        color: var(--color-fg) !important;
+    }
+    .chat-messages-container .chat-entry-container {
+        background-color: var(--color-bg-light) !important;
+        border-color: var(--color-border) !important;
+    }
+    .chat-messages-container .chat-entry-container textarea {
+        background-color: transparent;
+        color: var(--color-fg) !important;
+    }
 }
