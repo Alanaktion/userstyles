@@ -311,11 +311,15 @@
     }
     /* Livestream chat */
     live-chat {
+        background-color: var(--color-bg) !important;
         border-color: var(--color-border) !important;
     }
     .chat-messages-container .message-list .chat-message {
         background-color: var(--color-bg) !important;
         border-color: var(--color-border) !important;
+    }
+    .chat-message a {
+        color: var(--color-link);
     }
     .chat-messages-container .message-list .chat-message .chat-username {
         color: var(--color-fg) !important;
@@ -329,6 +333,10 @@
     }
     .chat-messages-container .chat-entry-container textarea {
         background-color: transparent;
+        color: var(--color-fg) !important;
+    }
+    .chat-viewers-container {
+        background-color: var(--color-bg) !important;
         color: var(--color-fg) !important;
     }
 }
