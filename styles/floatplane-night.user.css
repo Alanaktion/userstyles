@@ -16,6 +16,10 @@
         --color-link: #008eff;
     }
     /* Global */
+    .page-wrapper {
+        -webkit-user-select: auto;
+        user-select: auto;
+    }
     body,
     .page-wrapper .route-wrapper,
     .video-feed-wrapper {
