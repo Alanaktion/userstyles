@@ -63,6 +63,12 @@ A dark theme for a wide selection of webcomics (currently around 10, more being 
 
 📦 [dark-comics.user.css](https://raw.githubusercontent.com/Alanaktion/userstyles/master/styles/dark-comics.user.css)
 
+### Google Optimize Fix
+
+A simple override for [Google Optimize](https://developers.google.com/optimize) to make many sites display faster.
+
+📦 [google-optimize-fix.user.css](https://raw.githubusercontent.com/Alanaktion/userstyles/master/styles/google-optimize-fix.user.css)
+
 ### Thrive Life Dark
 
 A semi-complete dark theme for the Thrive Life website. It's not currently maintained.
