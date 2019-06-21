@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Google Optimize Fix
+@namespace    alanaktion/userstyles
+@version      0.1.0
+@author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
+@supportURL   https://github.com/Alanaktion/userstyles/issues
+@license      MIT
+==/UserStyle== */
+
+/* Work around Google Optimize's default of hiding sites completely on load */
+/* https://developers.google.com/optimize/ */
+.async-hide,
+html.async-hide,
+body.async-hide {
+    opacity: 1 !important;
+}
