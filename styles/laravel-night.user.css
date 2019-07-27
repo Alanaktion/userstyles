@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Laravel Night
 @namespace    alanaktion/userstyles
-@version      1.0.0
+@version      1.1.0
 @author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
 @supportURL   https://github.com/Alanaktion/userstyles/issues
 @license      MIT
@@ -274,5 +274,156 @@ url("https://lumen.laravel.com/") {
     }
     footer.main>ul>li>a {
         color: var(--fg);
+    }
+}
+
+@-moz-document domain("laravel-mix.com") {
+    /* Laravel Mix site + docs */
+    /* I **REALLY** wish this one had actual classes instead of just the Tailwind utilities */
+    :root {
+        --fg: #f0f0f0;
+        --bg: #222;
+        --border: #525252;
+        --well: #303030;
+    }
+    body {
+        color: var(--fg);
+        background-color: var(--bg) !important;
+    }
+    
+    /* Home page buttons */
+    svg ~ div > a.flex {
+        color: var(--fg);
+        border-color: var(--border);
+    }
+    svg ~ div > a.flex:hover {
+        color: var(--fg);
+        background-color: var(--well);
+    }
+    
+    /* Extensions main page */
+    .w-full > .flex.bg-gray-100 {
+        background-color: var(--well);
+    }
+    .w-full > .flex.bg-gray-100 h2 {
+        color: var(--fg);
+    }
+    .w-full > .flex.bg-gray-100 > .bg-gray-200 {
+        color: var(--fg);
+        background-color: var(--border);
+        border: none;
+    }
+    
+    /* Individual extension page */
+    header + div > .border-b,
+    .markdown-body.border-b {
+        border-color: var(--border);
+    }
+    .text-center + .flex > .bg-gray-500,
+    input[value^="npm i"] {
+        background: var(--well);
+    }
+    .text-center + .flex + .text-gray-700 {
+        color: var(--border);
+    }
+    
+    .markdown-body table td,
+    .markdown-body table th {
+        border-color: var(--border);
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: var(--well);
+    }
+    
+    /* Docs site */
+    #app > header {
+        color: var(--fg);
+        background-color: var(--well);
+        border-color: var(--well);
+    }
+    #app > .border-t-4 {
+        border-color: var(--bg);
+    }
+    #nav {
+        border-color: var(--border);
+    }
+    .docs-index h2 {
+        border-style: solid;
+        border-color: var(--border);
+    }
+    a {
+        color: var(--fg);
+    }
+    .v-scroll--indicator-wrapper {
+        background-color: var(--bg) !important;
+    }
+    .dropdown .bg-gray-100 {
+        background-color: var(--well);
+    }
+    header svg path[fill="#2E2E2E"],
+    #app > :first-child > :first-child > svg path[fill="#2E2E2E"] {
+        fill: var(--fg);
+    }
+    :not(pre)>code[class*="language-"],
+    pre[class*="language-"],
+    pre,
+    code {
+        background-color: var(--well);
+        border: none;
+    }
+    code[class*="language-"],
+    pre[class*="language-"] {
+        color: var(--fg);
+        text-shadow: none;
+    }
+    .style .token.string,
+    .token.entity,
+    .token.operator,
+    .token.url {
+        background-color: transparent;
+    }
+    .token.builtin,
+    .token.char,
+    .token.inserted,
+    .token.selector,
+    .token.string {
+        color: #80CE84;
+    }
+    .language-css .token.string,
+    .style .token.string,
+    .token.entity,
+    .token.operator,
+    .token.url,
+    .token.function {
+        color: #bbb;
+    }
+    .token.cdata,
+    .token.comment,
+    .token.doctype,
+    .token.prolog,
+    .token.punctuation {
+        color: #aaa;
+    }
+    .token.atrule,
+    .token.attr-value,
+    .token.keyword {
+        color: #65bee4;
+    }
+    .token.attr-name,
+    .token.boolean,
+    .token.constant,
+    .token.deleted,
+    .token.number,
+    .token.property,
+    .token.scope,
+    .token.symbol,
+    .token.tag {
+        color: #EC7C71;
+    }
+    .markdown-body .token.deleted {
+        background-color: rgba(255, 32, 32, 0.1);
+    }
+    .markdown-body .token.inserted {
+        background-color: rgba(0, 255, 0, 0.1);
     }
 }
