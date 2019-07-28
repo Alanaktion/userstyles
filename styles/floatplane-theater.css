@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           Floatplane Theater Mode
+@namespace      alanaktion/userstyles
+@version        1.0.0
+@author         Alan Hardman <alan@phpizza.com>
+==/UserStyle== */
+
+@-moz-document domain("floatplane.com") {
+    .page-wrapper {
+        padding-left: 0;
+    }
+    leftnav {
+        visibility: hidden;
+    }
+    live-chat {
+        visibility: hidden;
+    }
+    .page-wrapper .route-wrapper.livestream {
+        padding-right: 0 !important;
+    }
+}

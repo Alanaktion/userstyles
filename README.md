@@ -27,6 +27,8 @@ A complete dark theme for Floatplane. This includes all accessible pages for pai
 
 📦 [floatplane-full-width.user.css](https://raw.githubusercontent.com/Alanaktion/userstyles/master/styles/floatplane-full-width.user.css)
 
+📦 [floatplane-theater.user.css](https://raw.githubusercontent.com/Alanaktion/userstyles/master/styles/floatplane-theater.user.css) (hides left-nav and live chat)
+
 ### Patreon Night
 
 This is a work-in-progress, but currently supports the home page, creator pages, and messages. Additional pages will be supported over time. Expect this style to break very often, since Patreon's DOM changes drastically every few weeks, and doesn't include many consistent IDs or classes.
