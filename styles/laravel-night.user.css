@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Laravel Night
 @namespace    alanaktion/userstyles
-@version      1.1.0
+@version      1.2.0
 @author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
 @supportURL   https://github.com/Alanaktion/userstyles/issues
 @license      MIT
@@ -20,6 +20,12 @@ url-prefix("https://lumen.laravel.com/docs/") {
         color: var(--fg);
         background-color: var(--bg) !important;
     }
+    .sidebar_layout .sidebar:before {
+        background-image: linear-gradient(0deg, var(--bg), var(--well));
+    }
+    p {
+        color: var(--fg);
+    }
     nav.main,
     nav.main a.brand,
     nav.main ul.main-nav,
@@ -27,11 +33,64 @@ url-prefix("https://lumen.laravel.com/docs/") {
     .sidebar {
         border-color: var(--border);
     }
-    nav.main ul.main-nav>li>a {
+    nav.main ul.main-nav>li>a,
+    .sidebar_layout .sidebar nav .navigation_contain ul li h2,
+    .sidebar_layout .sidebar nav .navigation_contain ul li a {
         color: var(--fg);
     }
+    body, button, input, textarea {
+        color: var(--fg);
+    }
+    input::placeholder {
+        color: #aaa;
+    }
+    .input_group input[type=email],
+    .input_group input[type=search],
+    .input_group input[type=tel],
+    .input_group input[type=text] {
+        border-bottom-color: currentColor !important;
+    }
+    .input_group.search input[type=submit] {
+        filter: invert(1);
+    }
+    .autocomplete-wrapper,
+    .tt-dropdown-menu .footer {
+        background-color: var(--well);
+    }
+    .twitter-typeahead .tt-dropdown-menu .tt-suggestion.tt-cursor .autocomplete-wrapper {
+        background-color: var(--border);
+    }
+    .twitter-typeahead .tt-dropdown-menu .footer img {
+        filter: invert(1);
+    }
+    .autocomplete-wrapper .h2,
+    .autocomplete-wrapper .h3,
+    .autocomplete-wrapper .h4 {
+        color: var(--fg);
+        opacity: 0.7;
+    }
+    .twitter-typeahead .tt-dropdown-menu .autocomplete-wrapper {
+        border-bottom-color: var(--border);
+    }
+    .twitter-typeahead .tt-dropdown-menu .footer {
+        border-bottom-color: var(--border) !important;
+    }
+    .custom_select {
+        color: var(--fg);
+    }
+    .custom_select:after {
+        filter: invert(1);
+    }
+    .custom_select select option {
+        background-color: #fff;
+        color: #000;
+    }
     .docs article h2 a,
-    .docs article h2 a:hover {
+    .docs article h2 a:hover,
+    .docs_main h1+ul li a,
+    .docs_main h2 a,
+    .docs_main h3 a,
+    .docs_main h4 a {
         color: var(--fg);
     }
     .docs article h1+ul {
@@ -40,6 +99,9 @@ url-prefix("https://lumen.laravel.com/docs/") {
     .docs article table td,
     .docs article table th {
         border-color: var(--border);
+    }
+    .callout {
+        background-color: var(--well);
     }
     .docs blockquote {
         opacity: 0.95;
@@ -97,10 +159,18 @@ url-prefix("https://lumen.laravel.com/docs/") {
     .token.tag {
         color: #EC7C71;
     }
-    footer.main {
+    .partner_block {
         background-color: var(--well);
     }
-    footer.main>ul>li>a {
+    footer {
+        background-image: linear-gradient(0deg, var(--well), var(--bg));
+    }
+    footer.main,
+    footer .footer_bg{
+        background-color: var(--well);
+    }
+    footer.main>ul>li>a,
+    .footer_nav .footer_nav_contain ul li a {
         color: var(--fg);
     }
 }
