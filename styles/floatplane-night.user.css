@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Floatplane Night
 @namespace    alanaktion/userstyles
-@version      1.0.1
+@version      1.0.2
 @author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
 @supportURL   https://github.com/Alanaktion/userstyles/issues
 @license      MIT
@@ -85,7 +85,8 @@
         border-color: var(--color-border);
     }
     .video-content-wrapper .video-description-wrapper .video-description-header .video-title,
-    .video-content-wrapper .video-description-wrapper .video-description {
+    .video-content-wrapper .video-description-wrapper .video-description,
+    .video .info-box[class] .title {
         color: var(--color-fg);
     }
     .video-content-wrapper .video-description-wrapper .video-description-header .channel-info .channel-title {
