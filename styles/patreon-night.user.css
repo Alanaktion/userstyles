@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Patreon Night
 @namespace    alanaktion/userstyles
-@version      0.3.0
+@version      0.3.1
 @author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
 @supportURL   https://github.com/Alanaktion/userstyles/issues
 @license      MIT
@@ -41,7 +41,7 @@
   .stackable + div > button {
     color: var(--text-2);
   }
-  p > a {
+  p > a, a[target] {
     color: var(--text-2) !important;
   }
 
@@ -176,5 +176,18 @@
   /* Footer */
   [role="contentinfo"] ul li a {
     color: var(--text-2);
+  }
+  
+  /* Payment (Join) */
+  .stackable > [overflow="visible"] {
+    background-color: var(--dark);
+  }
+  .stackable button[data-tag="menuToggleDiv"] {
+    background-color: var(--dark);
+    border-color: var(--border);
+  }
+  .stackable [data-tag="menuToggleDiv"] > div {
+    background-color: transparent;
+    color: var(--text);
   }
 }
