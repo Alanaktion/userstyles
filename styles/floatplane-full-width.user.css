@@ -9,7 +9,8 @@
 
 @-moz-document domain("floatplane.com") {
     .video-player-wrapper .video-player-container,
-    .video-player-wrapper .video-player-container.livestream {
+    .video-player-wrapper .video-player-container.livestream,
+    .player-wrapper .player-container {
         max-width: none;
     }
 }
