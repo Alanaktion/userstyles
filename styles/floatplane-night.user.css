@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Floatplane Night
 @namespace    alanaktion/userstyles
-@version      1.0.2
+@version      1.1.0
 @author       Alan Hardman <alan@phpizza.com> (https://github.com/Alanaktion)
 @supportURL   https://github.com/Alanaktion/userstyles/issues
 @license      MIT
@@ -86,17 +86,20 @@
     }
     .video-content-wrapper .video-description-wrapper .video-description-header .video-title,
     .video-content-wrapper .video-description-wrapper .video-description,
-    .video .info-box[class] .title {
+    .video .info-box[class] .title,
+    .DescriptionHeaderComponent .video-title .title-text {
         color: var(--color-fg);
     }
     .video-content-wrapper .video-description-wrapper .video-description-header .channel-info .channel-title {
         color: var(--color-fg);
     }
-    .video-content-wrapper .video-description-wrapper .video-description a {
-        color: var(--color-link);
+    .video-content-wrapper .video-description-wrapper .video-description a,
+    .DescriptionHeaderComponent .channel-info .channel-title {
+        color: var(--color-link) !important;
     }
-    .video-content-wrapper .video-description-wrapper .video-description-header {
-        border-color: var(--color-border);
+    .video-content-wrapper .video-description-wrapper .video-description-header,
+    .DescriptionHeaderComponent {
+        border-color: var(--color-border) !important;
     }
     .video-content-wrapper .video-description-wrapper .video-description::after,
     .video-content-wrapper .video-description-wrapper .video-description.expanded::after {
@@ -145,6 +148,12 @@
     }
     .video-content-wrapper .video-list .video-list-item+.video-list-item {
         border-color: var(--color-border);
+    }
+    .post-list .post-list-item {
+        color: var(--color-link) !important;
+    }
+    .post-list .post-list-item + .post-list-item {
+        border-color: var(--color-border) !important;
     }
     /* User profile page */
     /* I tried not to use !important here, but there was no way around it on this section */
