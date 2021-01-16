@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Floatplane Theater Mode
 @namespace      alanaktion/userstyles
-@version        1.0.0
+@version        1.0.1
 @author         Alan Hardman <alan@phpizza.com>
 ==/UserStyle== */
 
@@ -15,7 +15,7 @@
     live-chat {
         visibility: hidden;
     }
-    .page-wrapper .route-wrapper.livestream {
+    .page-wrapper .route-wrapper.livestream-view {
         padding-right: 0 !important;
     }
 }
